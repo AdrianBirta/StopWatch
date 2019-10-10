@@ -1,0 +1,35 @@
+.list-item.completed span {
+	text-decoration: line-through;
+}
+body{
+	padding: 30px;
+}
+.container {
+	border:1px solid;
+}
+.top input{
+	width:100%;
+	height:40px;
+	box-sizing: border-box;
+}
+.bottom ul{
+	list-style: none;
+}
+.todo-items{
+	margin:0;
+	padding:0;
+	border:1px solid;
+}
+.todo-items li input{
+	border-radius:50%;
+	width:20px;
+	height:20px;
+	border:1px solid;
+	color:green;
+}
+.hide {
+	display:none;
+}
+li {
+	border-bottom:1px solid;
+}
